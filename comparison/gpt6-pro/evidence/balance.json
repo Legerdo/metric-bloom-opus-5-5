@@ -1,0 +1,274 @@
+[
+  {
+    "name": "active-adaptive",
+    "interval": 12,
+    "active": true,
+    "season": true,
+    "adapt": true,
+    "ended": true,
+    "minutes": 84.82,
+    "chapter": 10,
+    "actions": 81,
+    "automaticLives": 27,
+    "purchases": 1017,
+    "firstAutomationSeconds": 6,
+    "longestPurchaseGapSeconds": 98,
+    "longestMilestoneGapMinutes": 10.8,
+    "metaRecoverySeconds": 48,
+    "rates": {
+      "attention": 8094699567561.646,
+      "connection": 50916490520.06458,
+      "insight": 25463880839.030685
+    },
+    "stages": [
+      {
+        "name": "첫 번째 구독자",
+        "minutes": 4.8
+      },
+      {
+        "name": "우리의 발행 시간",
+        "minutes": 12.8
+      },
+      {
+        "name": "대화가 남는 자리",
+        "minutes": 16.4
+      },
+      {
+        "name": "다시 찾는 정원",
+        "minutes": 22
+      },
+      {
+        "name": "지붕과 지붕 사이",
+        "minutes": 29.18
+      },
+      {
+        "name": "두 번째 봄의 설계",
+        "minutes": 31.45
+      },
+      {
+        "name": "스스로 움직이는 마을",
+        "minutes": 38.4
+      },
+      {
+        "name": "멀리서 온 이웃",
+        "minutes": 54.4
+      },
+      {
+        "name": "밤을 잇는 방송",
+        "minutes": 62.4
+      },
+      {
+        "name": "빛의 개화제",
+        "minutes": 74.8
+      },
+      {
+        "name": "개화제 개막",
+        "minutes": 84.8
+      }
+    ]
+  },
+  {
+    "name": "typical-adaptive",
+    "interval": 30,
+    "active": false,
+    "season": true,
+    "adapt": true,
+    "ended": true,
+    "minutes": 97.02,
+    "chapter": 10,
+    "actions": 31,
+    "automaticLives": 30,
+    "purchases": 1006,
+    "firstAutomationSeconds": 6,
+    "longestPurchaseGapSeconds": 146,
+    "longestMilestoneGapMinutes": 9.47,
+    "metaRecoverySeconds": 120,
+    "rates": {
+      "attention": 12962070992274.805,
+      "connection": 50987813217.54572,
+      "insight": 25506396355.78366
+    },
+    "stages": [
+      {
+        "name": "첫 번째 구독자",
+        "minutes": 7.9
+      },
+      {
+        "name": "우리의 발행 시간",
+        "minutes": 19
+      },
+      {
+        "name": "대화가 남는 자리",
+        "minutes": 24
+      },
+      {
+        "name": "다시 찾는 정원",
+        "minutes": 32.33
+      },
+      {
+        "name": "지붕과 지붕 사이",
+        "minutes": 39.23
+      },
+      {
+        "name": "두 번째 봄의 설계",
+        "minutes": 43.58
+      },
+      {
+        "name": "스스로 움직이는 마을",
+        "minutes": 50.5
+      },
+      {
+        "name": "멀리서 온 이웃",
+        "minutes": 68
+      },
+      {
+        "name": "밤을 잇는 방송",
+        "minutes": 75.5
+      },
+      {
+        "name": "빛의 개화제",
+        "minutes": 87.5
+      },
+      {
+        "name": "개화제 개막",
+        "minutes": 97
+      }
+    ]
+  },
+  {
+    "name": "relaxed-balanced",
+    "interval": 40,
+    "active": false,
+    "season": true,
+    "adapt": false,
+    "ended": true,
+    "minutes": 144.02,
+    "chapter": 10,
+    "actions": 31,
+    "automaticLives": 35,
+    "purchases": 1000,
+    "firstAutomationSeconds": 6,
+    "longestPurchaseGapSeconds": 206,
+    "longestMilestoneGapMinutes": 16.8,
+    "metaRecoverySeconds": 170,
+    "rates": {
+      "attention": 5532181791595.929,
+      "connection": 35851631112.407745,
+      "insight": 18100676407.391144
+    },
+    "stages": [
+      {
+        "name": "첫 번째 구독자",
+        "minutes": 7.9
+      },
+      {
+        "name": "우리의 발행 시간",
+        "minutes": 18.87
+      },
+      {
+        "name": "대화가 남는 자리",
+        "minutes": 25.33
+      },
+      {
+        "name": "다시 찾는 정원",
+        "minutes": 35.33
+      },
+      {
+        "name": "지붕과 지붕 사이",
+        "minutes": 50.45
+      },
+      {
+        "name": "두 번째 봄의 설계",
+        "minutes": 56.67
+      },
+      {
+        "name": "스스로 움직이는 마을",
+        "minutes": 68
+      },
+      {
+        "name": "멀리서 온 이웃",
+        "minutes": 100
+      },
+      {
+        "name": "밤을 잇는 방송",
+        "minutes": 113.33
+      },
+      {
+        "name": "빛의 개화제",
+        "minutes": 134.67
+      },
+      {
+        "name": "개화제 개막",
+        "minutes": 144
+      }
+    ]
+  },
+  {
+    "name": "no-reset-adaptive",
+    "interval": 20,
+    "active": true,
+    "season": false,
+    "adapt": true,
+    "ended": true,
+    "minutes": 98.35,
+    "chapter": 10,
+    "actions": 82,
+    "automaticLives": 36,
+    "purchases": 762,
+    "firstAutomationSeconds": 6,
+    "longestPurchaseGapSeconds": 98,
+    "longestMilestoneGapMinutes": 12.88,
+    "metaRecoverySeconds": null,
+    "rates": {
+      "attention": 6483338703683.334,
+      "connection": 40780723937.81731,
+      "insight": 20394872988.73216
+    },
+    "stages": [
+      {
+        "name": "첫 번째 구독자",
+        "minutes": 4.8
+      },
+      {
+        "name": "우리의 발행 시간",
+        "minutes": 12.67
+      },
+      {
+        "name": "대화가 남는 자리",
+        "minutes": 16.2
+      },
+      {
+        "name": "다시 찾는 정원",
+        "minutes": 22.62
+      },
+      {
+        "name": "지붕과 지붕 사이",
+        "minutes": 29.33
+      },
+      {
+        "name": "두 번째 봄의 설계",
+        "minutes": 32.83
+      },
+      {
+        "name": "스스로 움직이는 마을",
+        "minutes": 38.8
+      },
+      {
+        "name": "멀리서 온 이웃",
+        "minutes": 58.67
+      },
+      {
+        "name": "밤을 잇는 방송",
+        "minutes": 69.33
+      },
+      {
+        "name": "빛의 개화제",
+        "minutes": 85.67
+      },
+      {
+        "name": "개화제 개막",
+        "minutes": 98.33
+      }
+    ]
+  }
+]

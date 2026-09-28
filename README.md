@@ -27,6 +27,14 @@ npm run sim -- --summary
 
 현재 공개 사이트는 [GitHub Pages](https://legerdo.github.io/metric-bloom-opus-5-5/)에서 플레이할 수 있습니다. 배포 방식은 `main` 브랜치의 `docs/` 폴더를 Pages 원본으로 사용합니다.
 
+## GPT-6 Pro 비교판
+
+별도 프로젝트 [Metric Bloom GPT-6 Pro](comparison/gpt6-pro/)를 같은 저장소에 보존하고, 비교 페이지에서 두 버전을 선택해 플레이할 수 있습니다.
+
+- [두 버전 비교 페이지](https://legerdo.github.io/metric-bloom-opus-5-5/comparison/)
+- [GPT-6 Pro 버전 바로 플레이](https://legerdo.github.io/metric-bloom-opus-5-5/comparison/gpt6-pro/)
+- [GPT-6 Pro 버전 소스와 실행 안내](comparison/gpt6-pro/README.md)
+
 Pages용 파일을 다시 만들 때는 프로젝트 폴더에서 다음 명령을 실행합니다.
 
 ```powershell
@@ -34,7 +42,7 @@ npm ci
 npm run build:pages
 ```
 
-성공하면 변경된 페이지 파일을 커밋해 `main`에 올립니다. `docs/` 폴더는 생성된 사이트 파일이므로 `npm run build:pages`가 다시 만듭니다. Pages 원본 변경은 GitHub의 저장소 설정에서 관리합니다.
+성공하면 두 게임의 변경된 페이지 파일을 커밋해 `main`에 올립니다. `docs/` 폴더는 생성된 사이트 파일이므로 `npm run build:pages`가 두 게임을 모두 빌드해 다시 만듭니다. Pages 원본 변경은 GitHub의 저장소 설정에서 관리합니다.
 
 ## 변경 기록과 원본 프롬프트
 

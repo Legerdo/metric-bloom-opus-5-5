@@ -1,0 +1,23 @@
+/* Loaded after the desktop composition so small-screen rules cannot be shadowed. */
+.next-milestone{display:block;margin-top:10px;color:#a2d3be;font-size:11px;line-height:1.6}
+/* Keep the primary action and the next goal within an ordinary laptop viewport.
+   Phaser FIT scales the whole scene inside this box; nothing is cropped. */
+@media(min-width:851px) and (max-height:900px){
+  .topbar{padding-top:14px;padding-bottom:12px}
+  .world-heading{padding:8px 2px}
+  .resource-strip{min-height:64px;padding-top:3px;padding-bottom:8px}
+  .world-frame{aspect-ratio:auto;height:clamp(240px,calc(100dvh - 443px),455px)}
+  .action-dock{padding:12px 4px}
+  .project-board{padding:12px 17px}
+  .goal-heading h2{font-size:18px}
+  .goal-heading>.pixel-icon{width:30px;height:30px}
+  .goal-subtitle{margin-bottom:8px}
+  .goal-controls{margin-top:10px}
+  .letter{padding-top:16px}
+  .bench-content{max-height:calc(100dvh - 190px);min-height:300px}
+}
+@media(min-width:1800px){.game-layout{grid-template-columns:minmax(0,1fr) 365px}.bench-content{padding:26px}}
+@media(max-width:1100px){.topbar{padding:20px 22px}.game-layout{padding:0 22px;gap:18px;grid-template-columns:minmax(0,1fr) 300px}.bench-content{padding:18px 16px}.action-dock{gap:10px}.action-dock h2{font-size:13px}.action-dock p{font-size:10px}.post-button{min-width:163px;padding:9px}.post-button span{font-size:12px}.resource-strip{gap:10px;padding-inline:4px}.resource strong{font-size:20px}.resource{gap:5px}.resource>img{width:25px;height:25px}.resource>div{column-gap:6px}.goal-resources{gap:12px}.page-foot{padding-inline:22px}}
+@media(min-width:851px) and (max-width:1100px) and (max-height:900px){.topbar{padding-block:12px}}
+@media(max-width:850px){.game-layout{grid-template-columns:minmax(0,1fr);gap:25px;max-width:740px}.topbar{max-width:740px}.workbench{position:static;min-width:0}.bench-content{max-height:560px;min-height:250px}.generator-list{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.page-foot{max-width:740px}.save-status{display:none}.world-label,.world-badge{font-size:9px;top:12px}.resource-strip{min-height:78px}.event-paper{max-width:100%}.header-tools{gap:6px}.resource strong{font-size:24px}}
+@media(max-width:500px){.topbar{padding:18px 14px;gap:10px}.brand{gap:5px}.brand>img{width:35px;height:35px}h1{font-size:20px}.brand>div>span{font-size:9px;letter-spacing:.5px}.header-tools .quiet{font-size:10px;padding:7px 8px;white-space:nowrap}.game-layout{padding:0 14px;gap:20px}.world-heading{padding:9px 0}.resource-strip{gap:6px;padding:9px 0 13px;min-height:72px}.resource>img{width:24px;height:24px}.resource>div{display:flex;flex-direction:column}.resource-label{align-self:flex-start;font-size:9px}.resource strong{font-size:19px}.resource small{font-size:9px;padding:0}.resource-note{font-size:10px}.world-label{left:8px;top:8px;padding:4px 6px;font-size:8px}.world-badge{right:8px;top:8px;font-size:8px;padding:4px 6px}.action-dock{flex-wrap:wrap;padding:20px 1px;gap:13px}.action-dock>div{width:100%}.action-dock h2{font-size:14px}.action-dock p{font-size:11px}.post-button{width:100%;padding:10px}.post-button span{font-size:14px}.project-board{padding:16px}.goal-heading h2{font-size:18px}.goal-subtitle{font-size:11px}.goal-controls{gap:8px;align-items:flex-start}.goal-controls button{padding:8px 10px;font-size:11px}.goal-controls label{font-size:10px;gap:4px}.goal-controls select{font-size:11px}.goal-resource{min-width:100px}.letter{padding:20px 2px 3px;gap:10px}.letter p{font-size:11px}.generator-list{display:block}.tabs button{padding:13px 5px}.bench-content{max-height:560px;padding:19px}.page-foot{padding:5px 15px 20px;margin:17px auto;display:block;font-size:9px}.page-foot>span:last-child{display:block;margin-top:7px}.modal-heading{padding:18px 16px 14px;gap:8px}.modal-heading h2{font-size:18px}.modal-heading img{width:32px;height:32px}.modal-copy{padding:18px 20px;font-size:12px}.modal-actions{padding:0 20px 20px;flex-wrap:wrap}.ending-stats{gap:5px}.ending-stats strong{font-size:19px}}

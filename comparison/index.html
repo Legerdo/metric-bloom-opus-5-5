@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10121b" />
+    <meta name="description" content="Metric Bloom 두 버전을 비교해 플레이하세요." />
+    <title>Metric Bloom · 버전 비교</title>
+    <style>
+      :root { color-scheme: dark; font-family: ui-monospace, "Cascadia Code", monospace; background: #10121b; color: #f5f0ff; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+      main { width: min(760px, 100%); }
+      p { color: #b8b3c8; line-height: 1.7; }
+      h1 { font-size: clamp(1.8rem, 6vw, 3rem); margin: 0 0 8px; }
+      .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px; margin-top: 28px; }
+      a.card { display: flex; min-height: 190px; flex-direction: column; justify-content: space-between; gap: 20px; padding: 22px; border: 1px solid #454153; border-radius: 14px; color: inherit; text-decoration: none; background: #191a27; transition: border-color .15s, transform .15s; }
+      a.card:hover, a.card:focus-visible { border-color: #ff85bb; transform: translateY(-2px); outline: none; }
+      a.card:focus-visible { box-shadow: 0 0 0 3px #ff85bb55; }
+      .tag { color: #ff9cc8; font-size: .8rem; }
+      .title { font-weight: 800; font-size: 1.25rem; }
+      .action { color: #c9bfdc; }
+      .back { display: inline-block; margin-top: 26px; color: #c9bfdc; }
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>METRIC BLOOM · VERSION SELECT</p>
+      <h1>두 버전을 직접 비교해 보세요</h1>
+      <p>두 게임은 서로 다른 저장 키를 사용하므로 같은 브라우저에서도 진행 데이터를 각각 보존합니다.</p>
+      <div class="cards">
+        <a class="card" href="../">
+          <span class="tag">OPUS 5.5 · STORY / UI UPDATE</span>
+          <span class="title">Metric Bloom</span>
+          <span class="action">개선판 플레이 →</span>
+        </a>
+        <a class="card" href="./gpt6-pro/">
+          <span class="tag">GPT-6 PRO · COMPARISON BUILD</span>
+          <span class="title">Metric Bloom GPT-6 Pro</span>
+          <span class="action">비교판 플레이 →</span>
+        </a>
+      </div>
+      <a class="back" href="../">← 개선판으로 돌아가기</a>
+    </main>
+  </body>
+</html>

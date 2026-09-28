@@ -1,5 +1,11 @@
 # Metric Bloom 업데이트 기록
 
+## GPT-6 Pro 비교판 추가
+
+- `C:\Users\K\DevSpaceWorkspaces\Metric_Bloom`의 별도 게임 프로젝트를 `comparison/gpt6-pro/`에 추가했습니다. 원본 폴더는 수정하지 않았습니다.
+- `/comparison/`에서 두 버전으로 이동할 수 있고, GPT-6 Pro 빌드는 `/comparison/gpt6-pro/`에 게시합니다.
+- `npm run build:pages`가 두 프로젝트를 각각 빌드하고 한 번에 `docs/`에 반영합니다. 어느 한쪽의 빌드가 실패하면 기존 Pages 파일을 유지합니다.
+
 ## 게임 플레이와 스토리
 
 - 예약 게시와 자동 운영이 쌓은 페르소나, 추천에서 보이지 않던 민트초코의 안부, 계정의 목소리를 정하는 선택까지 세 사건을 추가했습니다.
